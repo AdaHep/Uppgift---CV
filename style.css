@@ -27,25 +27,30 @@ header {
     font-size: 1.5rem;
 }
 
+.header-left {
+    margin-top: 1rem;
+    width: 30rem;
+    flex-wrap: wrap;
+}
+
+.language-menu {
+    width: 6.5rem;
+}
+
+.toggle-language-swe {
+    width: 2rem;
+}
+.toggle-language-eng {
+    width: 2rem;
+}
+
 .social {
-    margin-left: 15rem;
+    margin-right: 2rem;
 }
 
 .social-links {
     height: 2rem;
     width: 2rem;
-}
-
-div > h4 {
-    margin: 0;
-    color: rgb(255, 70, 70);
-}
-
-div > h2 {
-    margin-bottom: 0.2rem;  
-}
-div > h1 {
-    font-size: ;  
 }
 
 .links {
@@ -63,6 +68,16 @@ div > h1 {
 .links >a:hover {
     text-decoration: underline;
 }
+
+div > h4 {
+    margin: 0;
+    color: rgb(255, 70, 70);
+}
+
+div > h1 {
+    margin-bottom: 0.2rem;  
+}
+
 
 main {
     margin-top: 2rem;
@@ -87,8 +102,25 @@ main {
     /* background: yellow; */
 }
 
-.about-me {
+.main-text > p {
     margin-top: 1rem;
+}
+
+.main-text > h2 {
+    font-size: 2.5rem;
+}
+
+.main-text > h3 {
+    margin-top: 1rem;
+    
+}
+
+.divider {
+    margin-left: 1rem;
+    height: 35rem;
+    width: .1rem;
+    background-color: red;
+    border-radius: 100rem;
 }
 
 .red-text {
