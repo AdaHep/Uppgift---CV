@@ -4,11 +4,13 @@
 .justify-center {justify-content: center;}
 .align-center {align-items: center;}
 .space-between {justify-content: space-between;}
+.flex-end {justify-content: flex-end;}
+.column {flex-direction: column;}
 
 
 * {
     font-family: 'Manrope', sans-serif;
-    background: #333;
+    background: #161616;
     color: white;
     font-weight: 500;
     margin: 0;
@@ -25,13 +27,25 @@ header {
     font-size: 1.5rem;
 }
 
+.social {
+    margin-left: 15rem;
+}
+
+.social-links {
+    height: 2rem;
+    width: 2rem;
+}
 
 div > h4 {
     margin: 0;
+    color: rgb(255, 70, 70);
 }
 
 div > h2 {
     margin-bottom: 0.2rem;  
+}
+div > h1 {
+    font-size: ;  
 }
 
 .links {
@@ -50,15 +64,34 @@ div > h2 {
     text-decoration: underline;
 }
 
+main {
+    margin-top: 2rem;
+}
+
 .photo-of-me {
-    margin: 2rem 0 0 10rem ;
+    margin-left: 3.5rem;
+    margin-right: 3.5rem;
     height: 40rem;
-    width: 40rem;
-    background-color: tomato;
 }
 
 .me {
     height: 40rem;
-    width: 40rem;
     object-fit: contain;
+    border-radius: 100rem;
+}
+
+.main-text {
+    width: 35rem;
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    /* background: yellow; */
+}
+
+.about-me {
+    margin-top: 1rem;
+}
+
+.red-text {
+    /* font-size: 1.5rem; */
+    color:red
 }
