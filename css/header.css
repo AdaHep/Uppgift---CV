@@ -1,0 +1,63 @@
+header {
+    width: 100vw;
+}
+
+.my-name {
+    margin: 1rem 0 1rem 2rem ;
+    font-size: 1.5rem;
+}
+
+.my-name > a {
+    text-decoration: none;
+}
+
+.header-left {
+    margin-top: 1rem;
+    width: 30rem;
+    flex-wrap: wrap;
+}
+
+.language-menu {
+    width: 6.5rem;
+}
+
+.toggle-language-swe {
+    width: 2rem;
+}
+.toggle-language-eng {
+    width: 2rem;
+}
+
+.social {
+    margin-right: 2rem;
+}
+
+.social-links {
+    height: 2rem;
+    width: 2rem;
+}
+
+.links {
+    margin-right: 2rem;
+}
+
+.links >a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.links >a:hover {
+    text-decoration: underline;
+}
+
+div > h4 {
+    margin: 0;
+    color: rgb(255, 70, 70);
+}
+
+div > h1 {
+    margin-bottom: 0.2rem;  
+}
