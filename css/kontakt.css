@@ -1,0 +1,44 @@
+.contact-container {
+    width: 70rem;
+    height: 30rem;
+    /* background-color: salmon; */
+}
+
+
+.contact-container > p {
+    font-size: 5rem;
+    background-color: none;
+}
+
+
+.contact-box {
+    width: 15rem;
+    height: 15rem;
+    background-color: #494949a4;
+    border-radius: 5rem;
+    margin-right: 2rem;
+}
+
+.contact-box > span {
+    display: inline;
+    font-size: 2.5rem;
+    background: none;
+}
+
+.contact-social-links {
+    object-fit: contain;
+    height: 15rem;
+    width: 15rem;
+    background-color: none;
+}
+
+.fb {
+    height: 13rem;
+    width: 13rem;
+}
+
+.mail {
+    height: 7rem;
+    width: 7rem;
+
+}

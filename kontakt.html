@@ -9,6 +9,7 @@
     <!-- CSS LINKS -->
     <link rel="stylesheet" href="/css/reusables.css">
     <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/kontakt.css">
     <link rel="stylesheet" href="/css/homepage.css">
 
     <!-- JS SCRIPTS -->
@@ -23,10 +24,15 @@
 
 </head>
 <body>
-    <header class="flex flex-end">
+    <header class="flex space-between">
+        <div class="my-name">
+            <a href="./index.html"><h1>Adam Hepsever - FrontEnd Expert</h1></a>
+            <h4>atleast on the quest to become one...
+            </h4>
+        </div>
         <div class="header-left flex flex-end">
             <nav class="links flex justify-center align-center">
-                <a href="./om-mig.html">Om mig</a>
+                <a href="">Om mig</a>
                 <a href="./projekt.html">Projekt</a>
                 <a href="./kontakt.html">Kontakt</a>
             </nav>
@@ -45,17 +51,44 @@
             
         </div>
     </header>
-    <Main class="flex">
-        
-        <div class="welcome-text">
-            <h1 class="red-text">Hello</h1>
-            <h3>Im Adam Hepsever</h3>
-            <h3>Front End developer</h3>
+    <Main class="flex justify-center">
+        <div class="contact-container flex align-center column space-between">
+            <p>Låt oss snacka lite!</p>
+            <div class="flex">   
+                <div class="contact-box flex column space-around align-center">
+                    <a href="mailto: adam.hepsever@gmail.com" target="_blank">
+                        <img class="contact-social-links" src="./pics/icons/mail-logo.png" alt="github link"></a>
+
+
+                </div>
+
+
+                <div class="contact-box flex column space-around align-center">
+                    <a href="https://github.com/AdaHep" target="_blank">
+                        <img class="contact-social-links" src="./pics/icons/GitHub-logo.png" alt="github link"></a>
+
+
+                </div>
+                <div class="contact-box flex column space-around align-center">
+                    <a href="https://github.com/AdaHep" target="_blank">
+                        <img class="contact-social-links fb" src="./pics/icons/linkedin-logo.svg" alt="github link"></a>
+
+
+                </div>
+                <div class="contact-box flex column space-around align-center">
+                    <a href="https://github.com/AdaHep" target="_blank">
+                        <img class="contact-social-links" src="./pics/icons/facebook-logo.svg" alt="github link"></a>
+
+
+                </div>
+            </div>
+
+
+
+
         </div>
+      
         
-        <div class="photo-of-me">
-            <img class="me" src="./pics/placeholder.jfif" alt="nice picture of Adam in the forest">
-        </div> 
 
         
     </Main>
