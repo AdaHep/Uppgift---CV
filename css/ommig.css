@@ -31,7 +31,8 @@ main {
 }
 
 .red-text {
-    color:red
+    color:red;
+    text-decoration: none;
 }
 
 .about-me {

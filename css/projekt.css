@@ -1,0 +1,21 @@
+main {
+    margin-top: 2rem;
+
+}
+.project-container {
+    width: 90rem;
+    height: 40rem;
+    /* background-color: violet; */
+    margin-left: 10rem;
+}
+
+.project {
+    width: 30rem;
+    height: 30rem;
+}
+
+#UX {
+    background-image: url(/pics/UX-thumbnail.svg);
+    width: 20rem;
+    height: 20rem;
+}
