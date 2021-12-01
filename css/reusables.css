@@ -9,7 +9,6 @@
 .column {flex-direction: column;}
 
 * {
-    font-family: 'Manrope', sans-serif;
     color: white;
     /* font-weight: 500; */
     margin: 0;
@@ -17,5 +16,6 @@
 }
 
 body {
+    font-family: 'Manrope', sans-serif;
     background-color: #161616;
 }

@@ -4,8 +4,7 @@ main {
 
 .welcome-text {
     margin-top: 5rem;
-    margin-left: 28rem;
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -17,19 +16,11 @@ main {
     color:red
 }
 
-
-.photo-of-me {
-    position: fixed;
-    /* z-index: -100; */
-    right: 20rem;
-    margin-right: 3.5rem;
-    height: 40rem;
-}
-
 .me {
     height: 40rem;
     object-fit: contain;
     border-radius: 100rem;
+    margin-left: 3.5rem;
 }
 
 

@@ -1,5 +1,5 @@
 header {
-    width: 100vw;
+    width: 100%;
 }
 
 .my-name {
@@ -18,7 +18,7 @@ header {
 }
 
 .language-menu {
-    width: 6.5rem;
+    margin-right: 1rem;
 }
 
 .toggle-language-swe {
@@ -35,10 +35,6 @@ header {
 .social-links {
     height: 2rem;
     width: 2rem;
-}
-
-.links {
-    margin-right: 2rem;
 }
 
 .links >a {
