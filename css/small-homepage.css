@@ -1,0 +1,112 @@
+@media screen and (max-width: 1350px) {
+    .photo-of-me {
+        display: none;
+    }
+
+    main {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-text {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .main-text > h2 {
+        text-align: center;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .main-text2 {
+        margin-bottom: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .main-text {
+        font-size: 1rem;
+    }
+
+
+}
+
+
+@media screen and (max-width: 920px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome-text {
+        align-items: center;
+        margin-top: 0;
+        width: 100%;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .links {
+        justify-content: unset;
+    }
+
+    .divider {
+        display: none;
+    }
+
+    .me {
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .welcome-text {
+        font-size: 3rem;
+    }
+
+    .welcome-text > h3 {
+        font-size: 2.5rem;
+    }
+
+    .pic-of-me {
+        height: 34rem;
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .welcome-text {
+        font-size: 2.5rem;
+    }
+
+    .welcome-text > h3 {
+        font-size: 2rem;
+    }
+    .pic-of-me {
+        height: 27rem;
+    }
+}
+
+
+
+

@@ -19,3 +19,7 @@ body {
     font-family: 'Manrope', sans-serif;
     background-color: #161616;
 }
+
+.red-text {
+    color:red
+}

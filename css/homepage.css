@@ -6,21 +6,24 @@ main {
     margin-top: 5rem;
     font-size: 5rem;
     font-family: 'Indie Flower', cursive;
+    margin-right: 3.5rem;
 }
 
 .welcome-text > h3 {
     font-size: 3rem;
 }
 
-.red-text {
-    color:red
+.pic-of-me {
+    max-width: 30rem;
+    height: 40rem;
+    
 }
 
 .me {
-    height: 40rem;
+    height: 100%;
     object-fit: contain;
     border-radius: 100rem;
-    margin-left: 3.5rem;
+    
 }
 
 
