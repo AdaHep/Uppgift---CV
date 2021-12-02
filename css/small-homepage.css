@@ -7,6 +7,10 @@
         justify-content: center;
     }
 
+    .text {
+        flex-wrap: wrap;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -18,6 +22,10 @@
     main {
         flex-direction: column;
         align-items: center;
+    }
+
+    .welcome-text {
+        margin: 0;
     }
 
     .main-text {
@@ -37,11 +45,39 @@
         margin-bottom: 1rem;
     }
 
+    .contact-container {
+        margin-top: 0;
+    }
+
 }
 
 @media screen and (max-width: 950px) {
     .main-text {
         font-size: 1rem;
+    }
+
+    .project {
+        flex-direction: column-reverse;
+        height: unset;
+        align-items: center;
+    }
+
+    .project-thumbnail {
+        margin: 0;
+    }
+
+    .project-description {
+        max-height: 100%;
+        max-width: 80%;
+        margin-bottom: 1rem;
+    }
+
+    .project-description > h2 {
+        text-align: center;
+    }
+
+    .project-description > p {
+        font-size: 1.2rem;
     }
 
 
@@ -79,9 +115,14 @@
     }
 }
 
+@media screen and (max-width: 840px) {
+    /* .project {
+        flex-direction: column;
+    } */
+
 @media screen and (max-width: 450px) {
     .welcome-text {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .welcome-text > h3 {
@@ -96,7 +137,7 @@
 
 @media screen and (max-width: 380px) {
     .welcome-text {
-        font-size: 2.5rem;
+        font-size: 4rem;
     }
 
     .welcome-text > h3 {

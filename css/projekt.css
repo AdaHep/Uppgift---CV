@@ -3,7 +3,7 @@ main {
 }
 
 .project {
-    width: 70rem;
+    /* width: 70rem; */
     height: 13rem;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
@@ -18,9 +18,15 @@ main {
 }
 
 .project-description {
-    width: 40%;
-    margin-top: 1rem;
+    max-width: 50%;
+    /* margin-top: 1rem; */
+    font-size: 1.2rem;
+    max-height: 10rem;
 
+}
+
+.project-description > h2 {
+    margin-bottom: 0.5rem;
 }
 
 .project-description > a {
@@ -29,6 +35,7 @@ main {
     font-weight: 500;
 
 }
+
 
 .project-description >p > a {
     text-decoration: none;
