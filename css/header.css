@@ -16,26 +16,6 @@ header {
     flex-wrap: wrap;
 }
 
-.language-menu {
-    margin-right: 1rem;
-}
-
-.toggle-language-swe {
-    width: 2rem;
-}
-.toggle-language-eng {
-    width: 2rem;
-}
-
-.social {
-    margin-right: 2rem;
-}
-
-.social-links {
-    height: 2rem;
-    width: 2rem;
-}
-
 .links >a {
     font-size: 1.5rem;
     font-weight: 600;

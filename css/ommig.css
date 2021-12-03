@@ -18,11 +18,8 @@ main {
     width: 35rem;
     font-size: 1.2rem;
     margin-left: 1.5rem;
-    /* background-color: #3b3b3b52; */
     border-radius: 0.5rem;
 }
-
-
 
 .main-text > h2 {
     font-size: 2.5rem;

@@ -79,8 +79,7 @@
     .project-description > p {
         font-size: 1.2rem;
     }
-
-
+    
 }
 
 
@@ -114,11 +113,6 @@
         height: 30rem;
     }
 }
-
-@media screen and (max-width: 840px) {
-    /* .project {
-        flex-direction: column;
-    } */
 
 @media screen and (max-width: 450px) {
     .welcome-text {
